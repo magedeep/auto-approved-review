@@ -1,0 +1,22 @@
+{
+    "name": "magetip/module-autoapprovedreview",
+    "description": "",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "MageTip",
+            "email": "info@magetip.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "MageTip\\AutoApprovedReview\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
